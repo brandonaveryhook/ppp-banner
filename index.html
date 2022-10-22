@@ -81,7 +81,7 @@
             "IN": { country:"India", code: "IN60", discount: "60%" }
         }
         
-        fetch("https://ipinfo.io/json?token=6367f57e19bfc3")
+        fetch("https://ipapi.co/json/")
             .then(response => {
                 if (response.ok) {
                     response.json().then(json => {
